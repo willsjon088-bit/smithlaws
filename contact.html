@@ -25,17 +25,30 @@
 <div class="container">
 <h2>Contact Us</h2>
 
-<form action="https://submit-form.com/Y2MnYFkq4" method="POST">
-<input type="text" name="name" placeholder="Name" required>
-<input type="email" name="email" placeholder="Email" required>
-<textarea name="message" rows="5" placeholder="Brief description of your legal matter" required></textarea>
-<button type="submit">Send Message</button>
+<form action="https://usebasin.com/f/f49aefb3d517" method="POST" enctype="multipart/form-data" id="form" >
+  <label for="name">Name</label>
+  <input type="text" name="name" />
+  <label for="email">Email</label>
+  <input type="email" name="email" required />
+  <label for="message">Message</label>
+  <textarea name="message"></textarea>
+  <label for="checkbox1">Checkbox</label>
+  <input type="checkbox" name="checkbox1" />
+  <label for="checkbox2">Checkbox</label>
+  <input type="checkbox" name="checkbox2" />
+  <label for="radio1">Radio1</label>
+  <input id="radio1" type="radio" name="radio" value="radio1" checked />
+  <label for="radio2">Radio2</label>
+  <input id="radio2" type="radio" name="radio" value="radio2" />
+  <label for="file-upload">File Upload</label>
+  <input type="file" name="file-upload" />
+  <button type="submit">Send</button>
 </form>
 
 
 </script>
 </head>
-<p><strong>Note:</strong> Submitting this form does not create an attorney-client relationship.</p>
+<p><strong>Note:</strong> Submitting this form ensures your communication with attorney-client.</p>
 </div>
 </section>
 
@@ -45,6 +58,7 @@
 
 </body>
 </html>
+
 
 
 
